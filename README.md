@@ -56,28 +56,48 @@ Invoice added successfully
 
 ```JSON
 {
-   "invoices":[
-      {
-         "id":1,
-         "client":"TestClient",
-         "varRate":1,
-         "invoiceDate":"2021-08-13T18:45:15.553+00:00",
-         "lineItems":[
-            {
-               "id":2,
-               "quantity":10,
-               "description":"demo description",
-               "unitPrice":0.00
-            },
-            {
-               "id":3,
-               "quantity":10,
-               "description":"description",
-               "unitPrice":0.00
-            }
-         ]
-      }
-   ]
+    "invoices": [
+        {
+            "id": 1,
+            "client": "TestClient",
+            "varRate": 1,
+            "invoiceDate": "2021-08-13T18:45:15.553+00:00",
+            "lineItems": [
+                {
+                    "id": 2,
+                    "quantity": 10,
+                    "description": "demo description",
+                    "unitPrice": 0.00
+                },
+                {
+                    "id": 3,
+                    "quantity": 10,
+                    "description": "description",
+                    "unitPrice": 0.00
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "client": "TestClient",
+            "varRate": 1,
+            "invoiceDate": "2021-08-13T18:58:19.270+00:00",
+            "lineItems": [
+                {
+                    "id": 5,
+                    "quantity": 10,
+                    "description": "demo description",
+                    "unitPrice": 0.00
+                },
+                {
+                    "id": 6,
+                    "quantity": 10,
+                    "description": "description",
+                    "unitPrice": 0.00
+                }
+            ]
+        }
+    ]
 }
 
 ```
