@@ -12,20 +12,14 @@ import java.util.List;
  */
 public class InvoicesDto {
 
-	List<InvoiceDto> invoiceDtos;
+	List<InvoiceDto> invoices;
 
-	/**
-	 * @return
-	 */
-	public List<InvoiceDto> getInvoiceDtos() {
-		return invoiceDtos;
+	public List<InvoiceDto> getInvoices() {
+		return invoices;
 	}
 
-	/**
-	 * @param invoiceDtos
-	 */
-	public void setInvoiceDtos(List<InvoiceDto> invoiceDtos) {
-		this.invoiceDtos = invoiceDtos;
+	public void setInvoices(List<InvoiceDto> invoices) {
+		this.invoices = invoices;
 	}
 
 }

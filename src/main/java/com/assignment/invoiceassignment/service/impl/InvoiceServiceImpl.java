@@ -44,7 +44,7 @@ public class InvoiceServiceImpl implements InvoiceService {
 		for (Invoice invoice : invoices) {
 			dtos.add(new InvoiceDto(invoice));
 		}
-		dto.setInvoiceDtos(dtos);
+		dto.setInvoices(dtos);
 		return dto;
 	}
 

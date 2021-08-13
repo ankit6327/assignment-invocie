@@ -32,7 +32,7 @@ public class InvoiceController {
 	@PostMapping("/invoice")
 	public ResponseEntity<String> getInvoice(@RequestBody InvoiceDto invoiceDto) {
 		invoiceService.addInvoice(invoiceDto);
-		return new ResponseEntity<String>("Updated successfully", HttpStatus.OK);
+		return new ResponseEntity<String>("Invoice added successfully", HttpStatus.OK);
 
 	}
 
