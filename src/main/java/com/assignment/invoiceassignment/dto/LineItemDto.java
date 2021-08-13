@@ -9,8 +9,6 @@ public class LineItemDto {
 
 	private Long id;
 
-	private Invoice invoice;
-
 	private Long quantity;
 
 	private String description;
@@ -33,14 +31,6 @@ public class LineItemDto {
 
 	public void setId(Long id) {
 		this.id = id;
-	}
-
-	public Invoice getInvoice() {
-		return invoice;
-	}
-
-	public void setInvoice(Invoice invoice) {
-		this.invoice = invoice;
 	}
 
 	public Long getQuantity() {
